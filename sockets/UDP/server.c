@@ -1,3 +1,4 @@
+
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <stdio.h>
@@ -13,7 +14,7 @@
 
 int main(int argc, char *argv[]){
 
-  int ID_serv ,p;
+  int ID_serv, p;
   struct sockaddr_in server_addr;
   struct sockaddr_in client_addr;
   char chain2[BUFFER_SIZE];
