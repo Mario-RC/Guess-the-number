@@ -12,6 +12,6 @@ If your guess is too high or too low, try again.
 Entrar en los directorios y seguir los sigueintes pasos:
 
 ```
-compiles the programs bu using `gcc programa_X.c`.
+Compile the programs bu using `gcc programa_X.c`.
 Then execute them with `./a.out`.
 ```
