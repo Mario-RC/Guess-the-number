@@ -1,5 +1,21 @@
-gcc –c client.c server.c
-gcc –o client client.c
-gcc –o server server.c
 
-g++ -Wall main.cpp SudokuPuzzle.cpp -o sudoku-solver
+## Compile
+
+```
+gcc –c client.c server.c
+```
+or:
+```
+gcc –o client client.c
+```
+or:
+```
+gcc –o server server.c
+```
+
+## Execute
+
+```
+./server.c 
+./client 127.0.0.1 5000
+```
