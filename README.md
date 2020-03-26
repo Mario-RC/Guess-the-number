@@ -15,4 +15,3 @@ Entrar en los directorios y seguir los sigueintes pasos:
 compiles the programs bu using `gcc programa_X.c`.
 Then execute them with `./a.out`.
 ```
-
