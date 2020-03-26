@@ -13,7 +13,7 @@ Entrar en los directorios y seguir los sigueintes pasos:
 
 ###### Compile
 ```c
-gcc programa_X.c
+gcc program_X.c
 ```
 
 ###### Execute
