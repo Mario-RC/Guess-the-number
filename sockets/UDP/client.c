@@ -1,3 +1,4 @@
+
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <stdio.h>
@@ -18,7 +19,7 @@ int main(int argc, char*argv[]){
   struct hostent *host_name;
   char chain[BUFFER_SIZE];
 
-  ID_serv = socket(AF_INET,SOCK_DGRAM,0); //parametros: TCP/IP,define protocolo TCP,0
+  ID_serv = socket(AF_INET,SOCK_DGRAM,0);
 
   server_addr.sin_family=AF_INET;
   server_addr.sin_port = htons(SERVPORT);
@@ -38,3 +39,4 @@ int main(int argc, char*argv[]){
   return (0);
 
 } // end main
+
